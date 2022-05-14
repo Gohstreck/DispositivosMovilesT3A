@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
-        Log.d("TAco",id+"");
         switch (id){
             case R.id.heart:
                 Toast.makeText(this,R.string.drawer1, Toast.LENGTH_SHORT).show();
